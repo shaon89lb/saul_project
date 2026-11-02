@@ -1,3 +1,4 @@
+/* all cmn css starts here */
 *{
     margin: 0;
     padding: 0;
@@ -13,8 +14,9 @@ ul,ol{
 a { 
    text-decoration: none;
 }
+/* all cmn css ends here */
 
-/* aboutpart css start here */
+/* headerpart css start here */
 #headerpart{
     padding: 50px 0;
     background-color:#222831;
@@ -35,7 +37,9 @@ a {
     font-size: 18px;
     color: #EEEEEE;
 }
+/* headerpart css ends here */
 
+/* bannerpart css starts here */
 .bannerpart{
     padding-top: 173px;
     padding-bottom: 73px;
@@ -89,17 +93,14 @@ a {
     background-color: #00ADB5;
     transition: 0.3s;
 }
+/* bannerpart css ends here */
 
-
+/* aboutpart css starts here */
 #about_part{
     padding: 135px 0 69px;
     background-color:#222831;
     position: relative;
 }
-/* .about_upimg{
-    position: absolute;
-    margin-bottom: 70px;
-} */
 .tubelight_img{
     position: absolute;
     margin-left: 315px;
@@ -329,6 +330,8 @@ label{
     border-bottom: 1px solid rgba(177, 175, 175, 50%); 
 }
 /* contactform part css ends here */
+
+/* footer_part css starts here */
 #footer_part{
     padding-top: 100px;
     padding-bottom: 48px;
@@ -367,3 +370,4 @@ label{
     margin-left: 1030px;
     margin-top: 92px;
 }
+/* footer_part css ends here */
